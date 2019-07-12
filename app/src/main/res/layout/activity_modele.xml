@@ -7,6 +7,16 @@
     android:layout_height="match_parent"
     tools:context=".ModeleActivity">
 
+    <FrameLayout
+        android:id="@+id/frame_id_modele"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/nav_view_modele"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.49"/>
+
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/nav_view_modele"
         android:layout_width="0dp"
@@ -19,16 +29,6 @@
         app:layout_constraintRight_toRightOf="parent"
         app:menu="@menu/modele_menu" />
 
-    <FrameLayout
-        android:id="@+id/frame_id_modele"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toTopOf="@+id/nav_view"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.49">
 
-    </FrameLayout>
 
 </android.support.constraint.ConstraintLayout>
