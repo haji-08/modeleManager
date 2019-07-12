@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <item
+        android:id="@+id/mannequinat"
+        android:icon="@drawable/ic_face_black_24dp"
+        android:title="Mannequinant" />
+
+    <item
+        android:id="@+id/addItem"
+        android:icon="@drawable/ic_add_black_24dp"
+        android:title="Ajouter" />
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/common_full_open_on_phone"
+        android:title="Mes Mannequin" />
+
 </menu>

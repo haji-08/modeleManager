@@ -72,7 +72,7 @@ public class Connexion extends Fragment {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
                 if(firebaseAuth.getCurrentUser() != null) {
-                    //startActivity(new Intent(view.getContext(), ModeleActivity.class));
+                    startActivity(new Intent(view.getContext(), ModeleActivity.class));
                 }
             }
         };
@@ -96,7 +96,7 @@ public class Connexion extends Fragment {
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(!TextUtils.isEmpty(email) && !TextUtils.isEmpty(password)) {
                     if(task.isSuccessful()) {
-
+                        startActivity(new Intent(view.getContext(), ModeleActivity.class));
                     } else {
 
                         Toast.makeText(view.getContext(),"Une erreur est survenu"+task.getException().getMessage()  ,Toast.LENGTH_LONG).show();
