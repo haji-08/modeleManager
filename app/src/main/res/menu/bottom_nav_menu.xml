@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/connexion"
+        android:icon="@drawable/ic_vpn_key_black_24dp"
+        android:title="Connexion" />
+
+    <item
+        android:id="@+id/inscription"
+        android:icon="@drawable/ic_group_add_black_24dp"
+        android:title="Inscription" />
+
+
+</menu>
